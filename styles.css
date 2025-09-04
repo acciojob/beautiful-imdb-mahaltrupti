@@ -1,6 +1,6 @@
 
 /* Your CSS Code here. */
- <style>
+
     body {
       margin: 0;
       padding: 0;
@@ -57,5 +57,4 @@
 
     .btn:hover {
       background: #d4a915;
-    }
-  </style>
+	}
