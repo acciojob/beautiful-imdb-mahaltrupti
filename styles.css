@@ -1,2 +1,61 @@
 
 /* Your CSS Code here. */
+ <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+      font-family: Arial, sans-serif;
+      color: #fff;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 2.5rem;
+      color: #f5c518; /* IMDb Yellow */
+    }
+
+    .moviePic {
+      height: 400px;
+      width: 270px;
+      opacity: 0.9;
+      border-radius: 12px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .moviePic:hover {
+      transform: scale(1.05);
+      opacity: 1;
+    }
+
+    .movieDetail {
+      position: relative;
+      top: 20px;
+      width: 60%;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      background: rgba(0,0,0,0.4);
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #f5c518;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #d4a915;
+    }
+  </style>
